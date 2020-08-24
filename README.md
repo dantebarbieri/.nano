@@ -4,11 +4,11 @@ Nano with LISP syntax highlighting that can run on the TAMU Linux Servers
 ## Install
 Automatic install via a script on the TAMU Linux server:
 ```
-curl https://raw.githubusercontent.com/pulchroxloom/.nano/master/installer.sh | sh
+curl https://raw.githubusercontent.com/pulchroxloom/.nano/master/installer.sh | bash
 ```
 or
 ```
-wget https://raw.githubusercontent.com/pulchroxloom/.nano/master/installer.sh -O- | sh
+wget https://raw.githubusercontent.com/pulchroxloom/.nano/master/installer.sh -O- | bash
 ```
 The script will download the configs that you need to make `nano` a little more friendly and the syntax definitions for LISP (Scheme is a type of LISP).
 
